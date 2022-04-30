@@ -1,0 +1,103 @@
+html{
+    margin: 0;
+    background-color: #874356;
+}
+
+body {
+    background-color: #874356;
+}
+
+header{
+    height:10vh;
+}
+
+
+.navbar-expand-lg .navbar-collapse{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    justify-self: end;
+          
+}
+.navbar{
+background-color: #700a18;
+}
+
+.navbar-toggler-icon{
+background-color: #F6E7D8;
+}
+
+.lista{
+display: flex;
+align-self: flex-end;
+padding: 0 10px;
+}
+.container{
+display: flex;
+padding: 0 20px;
+list-style-type: none;
+}
+
+li a{
+padding: 10px;
+color: white;
+font-size: 18px;
+margin-top: 20px;
+}
+
+.navbar-brand{
+display: flex;
+justify-self: right;
+margin-right: 88%;
+font-family:cursive;
+}
+
+.form-corpo{
+    background-color: #F6E7D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: #F6E7D8;
+}
+
+.nome-form{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+select.ceu{
+    align-items: center;
+}
+
+select{
+    width: 90px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 94,5%;
+    background-color: #700a18;
+    color:white;
+    padding:40px ;
+   }
+  
+  .ins{
+    height: 40px;
+  }
+
+@media(max-width:900px){
+    .logo{
+      width:100%;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
